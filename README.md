@@ -11,17 +11,19 @@ I made use of the starter project movement script on canvas. I did make an chang
 
 
 Holograms: 
-For Holograms, I applied them to the gate for the ghost box, and the dots. I made no changes to the hologram script as I felt there was no need to, I did however make two seperate materials so that the gate and dots look distinct.
+For Holograms, I applied them to the gate for the ghost box, and the dots. I made no changes to the hologram script as I felt there was no need to, I did however make two seperate materials so that the gate and dots look distinct. The dots I made a brighter yellow while the gate I made an orange yellow like colour. 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/15aa1009-7c83-4bd2-a36b-ab01aeac81ff" />
 
 
 Scrolling Texture:
-For Scrolling Texture,
+For Scrolling Texture, 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/26aee7d1-07cc-4e04-b657-d169017539d7" />
 
 
 First Half Shader:
-The Shader that I made from the first half of the course is RimLighting.
+The Shader that I made from the first half of the course is RimLighting. In the image provided to us, the walls have a blue outline around them. I figured rim lighting would be the best to replicate but also graphically enhance the game is because I figured that by positioning the camera in the right spot, I can get a close replica look to the original picture while having it look distinct enough to be original. I did make a change to the rim lighting shader to achieve the look I wanted. What I did is I took the base and rim colours respectively, and multipled them together instead of adding them together. I made this change because before, the blue showing around the entire wall prominently and not for the outline around it.
+<img width="1486" height="422" alt="image" src="https://github.com/user-attachments/assets/f5fee2fb-85cc-4365-aac1-8acd949aafb4" />
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a89fc3b2-2999-45a4-8556-48b55446ab58" />
 
 
