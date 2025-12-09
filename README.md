@@ -1,5 +1,6 @@
 # CGFinalExam
 Below is what I have done from the Practical Part of the final exam
+
 Note: All shaders that I have created have in the SubShader Tags have had Universal Render Pipeline, changed to Universal Pipeline. This is something I remember I needed to fix when it came to unity6 projects in the past when making a build, so that my shaders are shown correctly.
 
 PlayerMovement:
@@ -10,7 +11,7 @@ I made use of the starter project movement script on canvas. I did make an chang
 
 
 Holograms: 
-For Holograms,
+For Holograms, I applied them to the gate for the ghost box, and the dots. I made no changes to the hologram script as I felt there was no need to, I did however make two seperate materials so that the gate and dots look distinct.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/15aa1009-7c83-4bd2-a36b-ab01aeac81ff" />
 
 
