@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class PacmanMovement : MonoBehaviour
+{
+    public float speed = 16f; // Movement speed
+                             
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        // Get input values
+        float horizontal = Input.GetAxis("Horizontal"); // A/D or Left/Right
+        float vertical = Input.GetAxis("Vertical");     // W/S or Up/Down
+
+        // Movement direction
+        Vector3 direction = new Vector3(horizontal, 0f, vertical);
+
+        // Apply movement
+        transform.Translate(direction * speed * Time.deltaTime);
+    }
+}
+
