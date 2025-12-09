@@ -24,7 +24,8 @@ First Half Shader:
 The Shader that I made from the first half of the course is RimLighting. In the image provided to us, the walls have a blue outline around them. I figured rim lighting would be the best to replicate but also graphically enhance the game is because I figured that by positioning the camera in the right spot, I can get a close replica look to the original picture while having it look distinct enough to be original. I did make a change to the rim lighting shader to achieve the look I wanted. What I did is I took the base and rim colours respectively, and multipled them together instead of adding them together. I made this change because before, the blue showing around the entire wall prominently and not for the outline around it.
 <img width="1486" height="422" alt="image" src="https://github.com/user-attachments/assets/f5fee2fb-85cc-4365-aac1-8acd949aafb4" />
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a89fc3b2-2999-45a4-8556-48b55446ab58" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/91fcbf53-fea8-484e-a7ab-bfa9dd424603" />
+
 
 
 Second Half Shader:
