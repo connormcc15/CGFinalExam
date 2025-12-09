@@ -2,6 +2,13 @@
 Below is what I have done from the Practical Part of the final exam
 Note: All shaders that I have created have in the SubShader Tags have had Universal Render Pipeline, changed to Universal Pipeline. This is something I remember I needed to fix when it came to unity6 projects in the past when making a build, so that my shaders are shown correctly.
 
+PlayerMovement:
+I made use of the starter project movement script on canvas. I did make an change to the original script by adding in a rigidbody and moving the vertical float value from the z position to the y position. I did these changes because when I tested in originally, unaltered, I found the movement weird and also no collision were happening. So I made the changes to the script to fix that issue. I also had to fix the sphere colliders on the dots in my scene as when I would collide with them, it would cause pac-man to move off course. All I did to fix this was make the colliders triggers.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d3b8bfc2-8efc-4387-a9e5-633a6f828e80" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e5ba8bc5-dcca-4be8-b1ae-0bdcb229279c" />
+
+
+
 Holograms: 
 For Holograms,
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/15aa1009-7c83-4bd2-a36b-ab01aeac81ff" />
