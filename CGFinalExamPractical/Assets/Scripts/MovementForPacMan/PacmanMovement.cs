@@ -3,11 +3,12 @@ using UnityEngine;
 public class PacmanMovement : MonoBehaviour
 {
     public float speed = 16f; // Movement speed
+    Rigidbody rb;
                              
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -17,7 +18,7 @@ public class PacmanMovement : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");     // W/S or Up/Down
 
         // Movement direction
-        Vector3 direction = new Vector3(horizontal, 0f, vertical);
+        Vector3 direction = new Vector3(horizontal, vertical, 0f);
 
         // Apply movement
         transform.Translate(direction * speed * Time.deltaTime);
