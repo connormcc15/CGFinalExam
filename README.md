@@ -28,6 +28,8 @@ The Shader that I made from the first half of the course is RimLighting. In the 
 
 
 Second Half Shader:
-The Shader that I made from the second half of the course is the MaterialVertexFragment Shader.
+The Shader that I made from the second half of the course is the MaterialVertexFragment Shader. I took the Material Vertex Fragment shader from canvas and made use of it for the backdrop of the game. I figured I'd make use of the this so that the backdrop stands out a bit more than just being a plain black backdrop. However, to achieve what I wanted it to look like, I needed to pass in a color through the half4 col so that I could alter what could the backdrop would be. Once that was done, I then played around with the inspector for that shader and then got the result you see at the bottom. I made the backdrop a darker blue because again, I wanted the backdrop to standout while not being a plain black.
+<img width="1218" height="257" alt="image" src="https://github.com/user-attachments/assets/7d0461b6-1532-4482-88e5-7d39e894b4a0" />
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/94783cae-6c80-484f-be2e-79471ab5bb50" />
 
