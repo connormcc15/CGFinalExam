@@ -9,7 +9,7 @@ Shader "Connor/MaterialVertexFragment"
     }
     SubShader
     {
-        Tags { "RenderPipeline" = "UniversalRenderPipeline" }
+        Tags { "RenderPipeline" = "UniversalPipeline" }
 
         Pass
         {
