@@ -16,7 +16,7 @@ For Holograms, I applied them to the gate for the ghost box, and the dots. I mad
 
 
 Scrolling Texture:
-For Scrolling Texture, 
+For Scrolling Texture, I felt that I could have applied this better in my scene as by the time I got to it, I had already applied other shaders that fit the other gameobjects better than the scrolling texture. So I applied it to the only thing that I didn't have a shader on at the time, that being the ghost. The ghost in the picture is just a flat colour, so I firgured that if I applied the scroll texture to the ghost, it would make it stand out from the original. To achieve this, I passed in a main colour so that when the textures are scrolling along the ghost's body, the colour is present and visible as well. Despite this however, I feel that the hologram might have been a better fit for the ghost as I could make a material for the ghost that uses the hologram shader, and made them more transparent so that there are actually a ghost.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/26aee7d1-07cc-4e04-b657-d169017539d7" />
 
 
