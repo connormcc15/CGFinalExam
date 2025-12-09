@@ -21,6 +21,10 @@ For Scrolling Texture, I felt that I could have applied this better in my scene 
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/33749988-9456-4310-a23d-ecd1f99ae7e3" />
 
+Below is how I would I would have the ghost looked if I used the hologram shader.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b84f61e8-f2a1-4b8f-93f5-38bac351c61a" />
+
+
 
 
 First Half Shader:
