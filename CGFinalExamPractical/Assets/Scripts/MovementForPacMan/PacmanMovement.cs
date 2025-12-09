@@ -18,7 +18,7 @@ public class PacmanMovement : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");     // W/S or Up/Down
 
         // Movement direction
-        Vector3 direction = new Vector3(horizontal, vertical, 0f);
+        Vector3 direction = new Vector3(horizontal, vertical, 0f); // Moved Vertical value to the y position and moved 0f to the z position in the vector3
 
         // Apply movement
         transform.Translate(direction * speed * Time.deltaTime);

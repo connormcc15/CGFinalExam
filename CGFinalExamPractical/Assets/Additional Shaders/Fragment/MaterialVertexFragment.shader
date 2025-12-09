@@ -5,7 +5,7 @@ Shader "Connor/MaterialVertexFragment"
         _MainTex ("Texture", 2D) = "white" {}
         _ScaleUVX ("Scale X", Range(1,10)) = 1
         _ScaleUVY ("Scale Y", Range(1,10)) = 1
-        _MainColour ("Colour", Color) = (0,0,0,0)
+        _MainColour ("Colour", Color) = (0,0,0,0)//Added color 
     }
     SubShader
     {
@@ -36,7 +36,7 @@ Shader "Connor/MaterialVertexFragment"
             SAMPLER(sampler_MainTex);       // Sampler for the texture
             float _ScaleUVX;
             float _ScaleUVY;
-            float4 _MainColour;
+            float4 _MainColour; // Main Colour for the background
 
             // Vertex Shader
             v2f vert(appdata v)
@@ -56,7 +56,7 @@ Shader "Connor/MaterialVertexFragment"
             // Fragment Shader
             half4 frag(v2f i) : SV_Target
             {
-                // Sample the main texture with transformed UV coordinates
+                // Sample the main texture with transformed UV coordinates, with now passing in the main colour
                 half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv) * (_MainColour * 0.5);
                 return col;
             }
